@@ -1,0 +1,1 @@
+console.log('안녕 index2.js')
