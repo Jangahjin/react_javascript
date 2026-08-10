@@ -1,0 +1,67 @@
+/* src/index.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2A1B18; /* 진한 브라운 베이스 */
+  color: #1A1A1A;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 앱 모바일 컨테이너 프레임 (2번 이미지 와이어프레임 형태 구조화) */
+.app-container {
+  width: 100%;
+  max-width: 430px;
+  height: 880px;
+  background-color: #FFFFFF; /* 기본 컨텐츠 영역은 깔끔한 화이트 */
+  border-radius: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* 1번 이미지의 '파스텔 블루 + 별 패턴' 감성을 담은 포인트 박스나 헤더 스타일 */
+.star-pattern-header {
+  background-color: #D2E4F0;
+  color: #2A1B18;
+  padding: 20px;
+  background-image: radial-gradient(#2A1B18 10%, transparent 11%);
+  background-size: 20px 20px;
+}
+
+/* 카드 그리드 레이아웃 (2번 이미지 참조) */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 16px;
+}
+
+.card-item {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+  transition: transform 0.2s;
+}
+
+.card-item:hover {
+  transform: translateY(-3px);
+}
+
+/* 하단 내비게이션 바 */
+.bottom-nav {
+  height: 65px;
+  background: #2A1B18;
+  color: #D2E4F0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}

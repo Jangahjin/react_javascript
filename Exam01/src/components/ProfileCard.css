@@ -1,0 +1,10 @@
+.profile-card {
+  background: linear-gradient(135deg, #fff0f5 0%, #ffe6ee 100%);
+  padding: 18px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 25px;
+  border: 1px solid #ffb3cb;
+}
+.profile-nickname { font-weight: bold; margin: 0 0 6px 0; color: #d64072; font-size: 15px; }
+.profile-stats { font-size: 12px; color: #666; margin: 0; }

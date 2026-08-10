@@ -1,0 +1,20 @@
+.archive-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+.archive-scroll::-webkit-scrollbar { display: none; }
+.archive-chip {
+  min-width: 100px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #fbe4ec;
+  font-weight: 500;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}

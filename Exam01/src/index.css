@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Midstar';
+  src: url('/fonts/Midstar_Personal_Use.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FriendBestie';
+  src: url('/fonts/FriendBestie.otf') format('opentype');
+}
+
+/* 🌟 헤더 문장에 폰트를 적용하는 예시 (헤더의 클래스 이름에 맞게 수정하세요) */
+.header-title {
+  font-family: 'Midstar', sans-serif;
+}
+
+#root {
+  background-color: rgb(182, 224, 243);
+  max-width: 600px;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 0px 29px 0px;
+}

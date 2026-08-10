@@ -1,0 +1,23 @@
+.search-section {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+.search-select {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #ffd1df;
+  background-color: #fff;
+  font-size: 13px;
+  outline: none;
+  color: #555;
+}
+.search-input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid #ffd1df;
+  background-color: #fff;
+  font-size: 13px;
+  outline: none;
+}
